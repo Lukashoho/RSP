@@ -19,7 +19,7 @@ header > h1 {
     text-align: center;
     font-family: Cute Font;
     line-height: 100px;
-    font-size: 100px;
+    font-size: 80px;
 }
 
 .score-board{
@@ -56,7 +56,7 @@ header > h1 {
 }
 
 .result{
-    font-size: 40px;
+    font-size: 60px;
     color: white;
 
 }
@@ -92,7 +92,7 @@ img {
 
 .choice:hover{
     cursor: pointer;
-    background-color: red;
+    background-color:#c5ecd4;
 }
 
 #action-message{
@@ -102,4 +102,19 @@ img {
     font-weight: bold;
     font-size: 40px;
     margin-top: 20px;
+}
+
+.green-glow{
+    border: 4px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow{
+    border: 4px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+}
+
+.gray-glow{
+    border : 4px solid #464647;
+    box-shadow: 0 0 2px #464647;
 }
